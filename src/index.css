@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif; /* Limited to Roboto and a generic sans-serif fallback */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6; /* Improved readability */
+  color: #333; /* Set a default text color */
+  background-color: #f8f8f8; /* Light background for better contrast */
+  padding: 20px; /* Added padding for better spacing */
+}

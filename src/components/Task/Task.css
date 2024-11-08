@@ -1,0 +1,24 @@
+.Task-wrapper {
+    background: linear-gradient(145deg, #a9a9a9, #7d7d7d); /* Gradient background for depth */
+    padding: 20px;
+    border-radius: 15px; /* Slightly less rounded corners for a modern look */
+    margin: 0 5% 5% 5%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Added shadow for depth */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition for hover effects */
+    
+    &:hover {
+        transform: translateY(-5px); /* Slight lift on hover */
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+    }
+}
+
+.Task-wrapper h3 {
+    width: 100%;
+    margin: 0;
+    color: #ffffff; /* White text for better contrast */
+    font-family: 'Arial', sans-serif; /* Modern font */
+    font-size: 1.4em; /* Increased font size for better visibility */
+    text-align: center; /* Centered text for a balanced look */
+    padding-bottom: 10px; /* Added padding for spacing */
+    border-bottom: 2px solid #f0f0f0; /* Light border for emphasis */
+}

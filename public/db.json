@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "Fix broken search functionality",
+        "body": "Users are unable to search for products, resulting in decreased user engagement. Investigate and resolve the issue.",
+        "lane": 1
+    },
+    {
+        "id": 2,
+        "title": "Update payment gateway integration",
+        "body": "Integrate the latest version of the payment gateway API to enhance transaction security and comply with regulations.",
+        "lane": 2
+    },
+    {
+        "id": 3,
+        "title": "Implement dark mode feature",
+        "body": "Add a toggle to switch between light and dark themes for better user experience, especially in low-light environments.",
+        "lane": 2
+    },
+    {
+        "id": 4,
+        "title": "Optimize loading time on homepage",
+        "body": "Reduce the loading time on the homepage by optimizing images and minimizing API calls.",
+        "lane": 1
+    },
+    {
+        "id": 5,
+        "title": "Design new user onboarding flow",
+        "body": "Create a more engaging and informative onboarding flow to help new users understand the platform’s features.",
+        "lane": 3
+    },
+    {
+        "id": 6,
+        "title": "Conduct security audit",
+        "body": "Perform a comprehensive security audit to identify and patch vulnerabilities across the application.",
+        "lane": 3
+    },
+    {
+        "id": 7,
+        "title": "Automate deployment process",
+        "body": "Implement a CI/CD pipeline for automated deployments to reduce manual intervention and improve deployment efficiency.",
+        "lane": 2
+    },
+    {
+        "id": 8,
+        "title": "Research GDPR compliance requirements",
+        "body": "Investigate and document all requirements needed to ensure the application is GDPR-compliant.",
+        "lane": 1
+    },
+    {
+        "id": 9,
+        "title": "Redesign mobile navigation",
+        "body": "Simplify and improve the navigation experience for mobile users based on recent feedback.",
+        "lane": 3
+    },
+    {
+        "id": 10,
+        "title": "Prepare demo environment",
+        "body": "Set up a stable demo environment for upcoming product showcase, ensuring it mirrors the production environment.",
+        "lane": 4
+    }
+]

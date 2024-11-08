@@ -1,0 +1,27 @@
+.Header-wrapper {
+    background-color: #007BFF; /* A softer blue for a modern look */
+    height: auto; /* Allow height to adjust based on content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; /* Added padding for better spacing */
+    border-radius: 8px; /* Rounded corners for a softer appearance */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.Header-wrapper h1 {
+    height: auto; /* Allow height to adjust based on content */
+    pointer-events: none;
+    font-size: 2.5rem; /* Larger font size for emphasis */
+    margin: 0; /* Remove default margin */
+    text-align: center; /* Center text alignment */
+    color: #FFFFFF; /* White text for contrast */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Subtle text shadow for depth */
+}
+
+/* Optional: Add a hover effect for the header */
+.Header-wrapper:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
